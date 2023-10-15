@@ -7,6 +7,50 @@
   box-sizing: border-box;
 }
 
+html{
+  font-size: 15px;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  margin-top:30px;
+  background:#F6F6F7
+}
+
+h2, h1{
+  color:blue;
+  font-size:3rem;
+}
+h2{
+  background:#fff;
+  padding:30px 20px;
+  color:#000;
+}
+span{
+  font-size:2rem;
+  display:flex;
+  //justify-content:center;
+  margin-top:-20px;
+  margin-bottom:20px;
+  color:grey;
+}
+button{
+  display:flex;
+  justify-content:center;
+  padding:7px 20px;
+  font-size:2rem;
+  color:#fff;
+  background:blue;
+
+}
+.input{
+  display:flex;
+  justify-content:center;
+  font-size:2rem;
+}
+
+
 /******************************************
 /* LAYOUT
 /*******************************************/
